@@ -1,0 +1,31 @@
+.upcoming-txt{
+    width: 200px;
+     border: none;
+     /* border-radius: 10px 50px; */
+     border-radius: 10px 70px;
+     background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+     transition: all 1.5s ease;
+     font-family: 'Ropa Sans', sans-serif;
+     font-weight: bold;
+     letter-spacing: 0.05rem;
+     padding: 0;
+    }
+    
+    .upcoming-txt span {
+     display: inline-block;
+     padding: 15px 35px;
+     font-size: 17px;
+     /* border-radius: 10px 50px; */
+     border-radius:  50px 10%;
+     background: #ffffff10;
+     backdrop-filter: blur(20px);
+     transition: 0.4s ease-in-out;
+     transition-property: color;
+     height: 100%;
+     width: 100%;
+    }
+    
+   .upcoming-txt span:hover {
+     backdrop-filter: blur(0px);
+     color: #ffffff;
+    }
